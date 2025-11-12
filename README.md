@@ -25,4 +25,4 @@ It analyzes various medical parameters and provides an instant prediction to hel
 - The person has heart disease
 - The person does not have heart disease
 
-https://heart-disease-prediction-model-eb.streamlit.app/
+
