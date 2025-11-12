@@ -8,8 +8,6 @@ It analyzes various medical parameters and provides an instant prediction to hel
 ## Features
 
 - Predicts the likelihood of heart disease using a trained Logistic Regression model
-- Simple and interactive web interface built with Streamlit
-- Clean, organized, and responsive design
 - Provides results instantly based on user inputs
 
 ## Technologies Used
@@ -17,14 +15,9 @@ It analyzes various medical parameters and provides an instant prediction to hel
 - Python
 - Pandas and NumPy for data handling
 - Scikit-learn for model building and evaluation
-- Streamlit for the frontend web interface
-- Joblib for saving and loading the trained model
   
  ## Project Files
-
-- app.py → Streamlit frontend of the web app
-- heart_disease_model.pkl → Trained Logistic Regression model
-- requirements.txt → List of required Python packages
+ 
 - Jupyter Notebook (.ipynb) → Model training, testing, and evaluation
 
 ## Prediction Output
