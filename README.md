@@ -1,32 +1,34 @@
-Heart Disease Prediction
-Project Overview
+**Heart Disease Prediction**
 
-This project is a machine learning based web application that predicts the likelihood of a person having heart disease based on various medical parameters. It uses a Logistic Regression model trained on a heart disease dataset to provide accurate and quick predictions.
+# Project Overview
 
-The project aims to assist in early risk detection and awareness by allowing users to input medical details and receive a prediction in real time.
+This project is a machine learning based web application that predicts the likelihood of a person having heart disease using Logistic Regression.
+It analyzes various medical parameters and provides an instant prediction to help identify potential heart disease risk early.
 
-Features
+# Features
 
-Predicts the likelihood of heart disease using Logistic Regression
+- Predicts the likelihood of heart disease using a trained Logistic Regression model
+- Simple and interactive web interface built with Streamlit
+- Clean, organized, and responsive design
+- Provides results instantly based on user inputs
 
-User friendly web interface built with Streamlit
+# Technologies Used
 
-Clean and responsive design for easy use
+- Python
+- Pandas and NumPy for data handling
+- Scikit-learn for model building and evaluation
+- Streamlit for the frontend web interface
+- Joblib for saving and loading the trained model
+  
+ # Project Files
 
-Instant prediction based on user input
+- app.py → Streamlit frontend of the web app
+- heart_disease_model.pkl → Trained Logistic Regression model
+- requirements.txt → List of required Python packages
+- Jupyter Notebook (.ipynb) → Model training, testing, and evaluation
 
-Technologies Used
+# Prediction Output
 
-Python
+- The person has heart disease
+- The person does not have heart disease
 
-Pandas and NumPy for data handling
-
-Scikit-learn for machine learning model
-
-Streamlit for frontend web interface
-
-Joblib for saving and loading the trained model
-
-Prediction Output
-
-Displays "The person has heart disease" or "The person does not have heart disease" based on the model’s prediction.
